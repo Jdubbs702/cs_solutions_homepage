@@ -1,0 +1,24 @@
+fieldset, .btn {
+    border: 2px solid #f1d592;
+    background-color: #484848;
+    color: #FEF1DC;
+}
+
+.form-control:focus, .form-check-input:checked  {
+    border-color: #f5b51d;
+    box-shadow: 0 0 0 0.25rem rgb(245 181 29 / 25%);
+}
+
+.form-check-input:checked {
+    background-color: #f5b51d;
+}
+
+.btn {
+    border-radius: 5px;
+    width: 50%;
+    float: left;
+}
+
+.btn:hover {
+    color: #f1d592;
+}
